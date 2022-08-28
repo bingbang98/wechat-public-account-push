@@ -1,28 +1,28 @@
 export const config = {
     // 公众号配置
     // 公众号appId
-    appId: "",
+    appId: "wx89ea4f16f0a23d4f",
     // 公众号appSecret
-    appSecret: "",
+    appSecret: "2f89cc85aa2c750cc3294c125356d291",
     // 模板消息id
-    templateId: "",
+    templateId: "JxCiqXLkuTkgfKmGCatTGBCLs_rvnb6HBy8e2ev1lSw",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    user: [],
+    user: ["oebKK5khHN-ysVgqoMUWfwSbN9Qc"],
      
     // 信息配置
     // 所在省份
-    province: "广东",
+    province: "陕西",
     // 所在城市
-    city: "惠州",
+    city: "西安",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
     birthdays: [
-      {"name": "老婆", "year": "1993", "date": "12-27", "type": 'new'},
-      {"name": "家公", "year": "1993", "date": "08-09", "type": 'new'},
+      {"name": "老婆", "year": "1997", "date": "11-05", "type": 'r'},
+      {"name": "老公", "year": "1998", "date": "05-20", "type": 'r'},
     ],
     // 在一起的日子，格式同上
-    loveDate: "2015-05-01",
+    loveDate: "2018-04-19",
     // 结婚纪念日
-    marryDate: "2020-01-04"
+    marryDate: "2022-08-08"
     }
 
 // {{date.DATA}}  
